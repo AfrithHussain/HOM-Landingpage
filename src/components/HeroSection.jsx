@@ -1,6 +1,7 @@
 import React from "react";
 import business from "../assets/business.jpg";
 import logo from "../assets/logo.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HeroSection = () => {
   return (
@@ -18,7 +19,11 @@ const HeroSection = () => {
       {/* Header with Logo and Name */}
       <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between p-6">
         <div className="flex items-center">
-          <img src={logo} alt="Company Logo" className="h-10 md:h-12 w-auto" />
+          <LazyLoadImage
+            src={logo}
+            alt="Company Logo"
+            className="h-10 md:h-12 w-auto"
+          />
           <span className="ml-3 text-xl md:text-2xl font-bold">
             BizSolutions
           </span>
