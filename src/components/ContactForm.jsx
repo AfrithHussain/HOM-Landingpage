@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Contact from "../assets/contact.jpg";
+import Contact from "../assets/Contact.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ContactForm = () => {
@@ -21,7 +21,7 @@ const ContactForm = () => {
 
   return (
     <div className="mt-24 px-4 md:px-8 lg:px-16">
-      <h2 className="text-4xl font-bold mb-6 text-center text-gray-800">
+      <h2 className="text-4xl font-bold mb-6 text-center text-gray-800 ">
         Contact Us
       </h2>
 
